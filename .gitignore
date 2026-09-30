@@ -1,0 +1,15 @@
+# Features, graphs and results (regenerable; large)
+outputs/
+
+# Local environment (paths, API keys)
+scripts/env.sh
+.env
+
+# Python / editor
+__pycache__/
+*.pyc
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+.DS_Store
+*.log

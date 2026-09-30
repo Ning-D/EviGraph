@@ -1,0 +1,13 @@
+# Core (features, graph building, selection, Qwen3-VL answering)
+numpy
+opencv-python
+pillow
+scikit-learn
+torch>=2.1
+transformers>=4.57   # Qwen3-VL; mPLUG-Owl3 and LLaVA-Video need their own envs (see README)
+accelerate
+openai>=1.40
+pandas               # only for the Video-MME parquet annotation
+
+# Open-source graph builders (separate env recommended)
+# vllm>=0.10
